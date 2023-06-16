@@ -1,0 +1,6 @@
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.csproj.AssemblyReference.cache
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.csproj.SuggestedBindingRedirects.cache
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro_de_Funcionario.Form1.resources
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro_de_Funcionario.Properties.Resources.resources
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.csproj.GenerateResource.cache
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.csproj.CoreCompileInputs.cache
