@@ -44,6 +44,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.tx_nome = new System.Windows.Forms.TextBox();
             this.tx_salario = new System.Windows.Forms.TextBox();
+            this.tx_avisofuncao = new System.Windows.Forms.Label();
+            this.tx_avisosalario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -212,11 +214,35 @@
             this.tx_salario.TabIndex = 15;
             this.tx_salario.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
+            // tx_avisofuncao
+            // 
+            this.tx_avisofuncao.AutoSize = true;
+            this.tx_avisofuncao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tx_avisofuncao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tx_avisofuncao.Location = new System.Drawing.Point(48, 240);
+            this.tx_avisofuncao.Name = "tx_avisofuncao";
+            this.tx_avisofuncao.Size = new System.Drawing.Size(42, 17);
+            this.tx_avisofuncao.TabIndex = 16;
+            this.tx_avisofuncao.Text = "Aviso";
+            // 
+            // tx_avisosalario
+            // 
+            this.tx_avisosalario.AutoSize = true;
+            this.tx_avisosalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.tx_avisosalario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.tx_avisosalario.Location = new System.Drawing.Point(464, 240);
+            this.tx_avisosalario.Name = "tx_avisosalario";
+            this.tx_avisosalario.Size = new System.Drawing.Size(42, 17);
+            this.tx_avisosalario.TabIndex = 17;
+            this.tx_avisosalario.Text = "Aviso";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 453);
+            this.Controls.Add(this.tx_avisosalario);
+            this.Controls.Add(this.tx_avisofuncao);
             this.Controls.Add(this.tx_salario);
             this.Controls.Add(this.tx_nome);
             this.Controls.Add(this.label9);
@@ -258,6 +284,8 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox tx_nome;
         private System.Windows.Forms.TextBox tx_salario;
+        private System.Windows.Forms.Label tx_avisofuncao;
+        private System.Windows.Forms.Label tx_avisosalario;
     }
 }
 

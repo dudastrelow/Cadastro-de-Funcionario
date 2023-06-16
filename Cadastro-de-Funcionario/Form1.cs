@@ -17,6 +17,8 @@ namespace Cadastro_de_Funcionario
             InitializeComponent();
             tx_resultadoIRPF.Text = "";
             tx_resultadosalario.Text = "";
+            tx_avisofuncao.Text = "";
+            tx_avisosalario.Text = "";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -55,12 +57,21 @@ namespace Cadastro_de_Funcionario
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
-            Funcionario f = new Funcionario(tx_matricula.Text, tx_nome.Text, box_funcao.Text, Convert.ToDouble(tx_salario.Text));          
-            tx_resultadosalario.Text = f.SalarioFuncionario();
-            tx_resultadoIRPF.Text = f.Porcentagem();
-
+        { 
+            if(box_funcao.Text == "Função" || tx_salario.Text == "")
+            {
+                tx_avisofuncao.Text = "Selecione uma função";
+                tx_avisosalario.Text = "Coloque o salário";
+            }
+            
+            else
+            {
+                tx_avisofuncao.Text = "";
+                tx_avisosalario.Text = "";
+                Funcionario f = new Funcionario(tx_matricula.Text, tx_nome.Text, box_funcao.Text, Convert.ToDouble(tx_salario.Text));
+                tx_resultadosalario.Text = f.SalarioFuncionario();
+                tx_resultadoIRPF.Text = f.Porcentagem();
+            }
 
         }
 
@@ -73,8 +84,8 @@ namespace Cadastro_de_Funcionario
             tx_cpf.Text = "";
             tx_salario.Text = "";
             box_funcao.Text = "Função";
-
-
+            tx_avisofuncao.Text = "";
+            tx_avisosalario.Text = "";
         }
     }
 }
