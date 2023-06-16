@@ -4,3 +4,8 @@ C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\D
 C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro_de_Funcionario.Properties.Resources.resources
 C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.csproj.GenerateResource.cache
 C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.csproj.CoreCompileInputs.cache
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\bin\Debug\Cadastro-de-Funcionario.exe.config
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\bin\Debug\Cadastro-de-Funcionario.exe
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\bin\Debug\Cadastro-de-Funcionario.pdb
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.exe
+C:\Users\Duda\source\repos\Cadastro-de-Funcionario\Cadastro-de-Funcionario\obj\Debug\Cadastro-de-Funcionario.pdb

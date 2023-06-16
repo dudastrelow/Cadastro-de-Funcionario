@@ -13,64 +13,64 @@
     }
 
 
-    public double SalarioFuncionario()
+    public string SalarioFuncionario()
     {
         if(funcao == "Médico")
         {
             double salariomedico = (salario * 0.2) + salario;
             if(salariomedico > 5000)
             {
-                return salariomedico - (salariomedico * 0.17);
+                return $"{(salariomedico - (salariomedico * 0.17)).ToString("0.00")}";
             }
-            return salariomedico;
+            return $"{(salariomedico).ToString("0.00")}";
         }
         if(funcao == "TI")
         {
             double salarioTI = salario + 5600;
             if (salarioTI > 5000)
             {
-                return salarioTI - (salarioTI * 0.17);
+                return $"{(salarioTI - (salarioTI * 0.17)).ToString("0.00")}";
             }
-            return salarioTI;
+            return $"{(salarioTI).ToString("0.00")}";
         }
         else 
         {
-            double salarioADM = salario + (salario * 0.17) + 200;
+            double salarioADM = salario + (salario * 0.15) + 200;
             if (salarioADM > 5000)
             {
-                return salarioADM - (salarioADM * 0.17);
+                return $"{(salarioADM - (salarioADM * 0.17)).ToString("0.00")}";
             }
-            return salarioADM;
+            return $"{(salarioADM).ToString("0.00")}";
         }
     }
-    public double Porcentagem()
+    public string Porcentagem()
     {
         if (funcao == "Médico")
         {
             double salariomedico = (salario * 0.2) + salario;
             if (salariomedico > 5000)
             {
-                return salariomedico * 0.17;
+                return $"{(salariomedico * 0.17).ToString("0.00")}";
             }
-            return 0.00;
+            return $"{0.00}";
         }
         if (funcao == "TI")
         {
             double salarioTI = salario + 5600;
             if (salarioTI > 5000)
             {
-                return salarioTI * 0.17;
+                return $"{(salarioTI * 0.17).ToString("0.00")}";
             }
-            return 0.00;
+            return $"{0.00}";
         }
         else
         {
-            double salarioADM = salario + (salario * 0.17) + 200;
+            double salarioADM = salario + (salario * 0.15) + 200;
             if (salarioADM > 5000)
             {
-                return salarioADM * 0.17;
+                return $"{(salarioADM * 0.17).ToString("0.00")}";
             }
-            return 0.00;
+            return $"{0.00}";
         }
     }
 }
